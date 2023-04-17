@@ -3,13 +3,14 @@ package com.test01.guanLi;
 public class xueShengClass {
    private String name;
    private int age;
-   private int id;
+   private String id;
    private String shengRi;
+
 
     public xueShengClass() {
     }
 
-    public xueShengClass(String name, int age, int id, String shengRi) {
+    public xueShengClass(String name, int age, String id, String shengRi) {
         this.name = name;
         this.age = age;
         this.id = id;
@@ -52,7 +53,7 @@ public class xueShengClass {
      * 获取
      * @return id
      */
-    public int getId() {
+    public String getId() {
         return id;
     }
 
@@ -60,7 +61,7 @@ public class xueShengClass {
      * 设置
      * @param id
      */
-    public void setId(int id) {
+    public void setId(String id) {
         this.id = id;
     }
 
